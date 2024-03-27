@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 516
+  Height = 640
+  Top = 287
+  Width = 997
+  Caption = 'Form1'
+  ClientHeight = 640
+  ClientWidth = 997
+  DesignTimePPI = 192
+  LCLVersion = '3.2.0.0'
+  object BitBtn1: TBitBtn
+    Left = 704
+    Height = 81
+    Top = 520
+    Width = 246
+    Caption = 'ВЫХОД'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 296
+    Height = 183
+    Top = 200
+    Width = 424
+    Caption = 'ЩЕЛКНИТЕ ЗДЕСЬ!'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 56
+    Height = 66
+    Top = 40
+    Width = 888
+    Caption = 'Догадайтесь кто сделал этот проект'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -53
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 438
+    Height = 1
+    Top = 490
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -37
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    OnClick = Label2Click
+  end
+end
